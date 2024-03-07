@@ -1,0 +1,50 @@
+title: Zordon
+originalAuthor: danimalforlife
+description: Alpha, bring me some teenagers with attitude!
+
+assets:
+
+#MCP Filter
+- name: remastered\obj\B_TR020.mdlx\-0.dds
+  method: copy
+  source:
+  - name: remastered\blue.dds
+
+#MCP Face
+- name: remastered\obj\B_TR020.mdlx\-1.dds
+  method: copy
+  source:
+  - name: remastered\face.dds
+
+#MCP Mesh
+- name: remastered\obj\F_TR570.mdlx\-0.dds
+  method: copy
+  source:
+  - name: remastered\mesh.dds
+- name: remastered\obj\F_TR580_GM.mdlx\-0.dds
+  method: copy
+  source:
+  - name: remastered\mesh.dds
+- name: remastered\obj\N_TR580_GM.mdlx\-0.dds
+  method: copy
+  source:
+  - name: remastered\mesh.dds
+
+#Barrier
+- name: remastered\obj\F_TR050.mdlx\-0.dds
+  method: copy
+  source:
+  - name: remastered\ooze.dds
+
+
+#MCP Voice
+- name: remastered\obj\B_TR020.a.us\voice\battle\us\mcp
+  method: copy
+  source:
+  - name: voice\zordon
+
+#Large Sark Voice
+- name: remastered\obj\N_TR010_BTL_L.a.us\voice\battle\us\large_sark
+  method: copy
+  source:
+  - name: voice\alpha
