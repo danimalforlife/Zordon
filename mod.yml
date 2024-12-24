@@ -4,6 +4,13 @@ description: Alpha, bring me some teenagers with attitude!
 
 assets:
 
+
+#MCP Object
+- name: obj\B_TR020.mdlx
+  method: copy
+  source:
+  - name: obj\zordon.mdlx
+
 #MCP Filter
 - name: remastered\obj\B_TR020.mdlx\-0.dds
   method: copy
